@@ -35,6 +35,7 @@
 		607B13322AF898B000875D91 /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
 		607B13432AF8B01600875D91 /* TaskRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepo.swift; sourceTree = "<group>"; };
 		607B13472AF8B7C700875D91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		60E750922AF9DF13008CAB53 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 				607B132B2AF885F700875D91 /* Views */,
 				607B131E2AF883DB00875D91 /* Assets.xcassets */,
 				607B13472AF8B7C700875D91 /* GoogleService-Info.plist */,
+				60E750912AF9DF09008CAB53 /* google */,
 				607B13202AF883DB00875D91 /* Preview Content */,
 			);
 			path = TigerTasks;
@@ -139,6 +141,14 @@
 				607B13432AF8B01600875D91 /* TaskRepo.swift */,
 			);
 			path = Repos;
+			sourceTree = "<group>";
+		};
+		60E750912AF9DF09008CAB53 /* google */ = {
+			isa = PBXGroup;
+			children = (
+				60E750922AF9DF13008CAB53 /* GoogleService-Info.plist */,
+			);
+			path = google;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
