@@ -14,10 +14,11 @@ struct TaskCell: View {
     
     var body: some View {
         HStack {
+           
             Image(systemName: taskcellvm.task.completed ? "checkmark.circle.fill" : "circle")
                 .onTapGesture {
                     self.taskcellvm.task.completed.toggle()
-                }
+                } 
             TextField("Enter the task title", text: $taskcellvm.task.title, onCommit: {
                 self.onCommit(self.taskcellvm.task)
             })
