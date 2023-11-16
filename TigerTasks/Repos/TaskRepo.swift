@@ -20,11 +20,11 @@ class TasksRepo : ObservableObject {
     }
     
     func loadData() {
-       // let userId = Auth.auth().currentUser?.uid
+        //let userId = Auth.auth().currentUser?.uid
         
         db.collection("tasks")
             .order(by: "createdTime")
-            //.whereField("userId", isEqualTo: userId)
+           // .whereField("userId", isEqualTo: userId as Any)
             .addSnapshotListener { querySnapshot, error in
                 if let querySnapshot = querySnapshot {
                     self.tasks = querySnapshot.documents.compactMap { document in
